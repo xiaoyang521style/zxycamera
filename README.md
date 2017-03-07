@@ -494,7 +494,7 @@ err：
 ```js
 
 var zxycamera = api.require('zxycamera');
-zxycamera.getVideoInfo({
+zxycamera.compressImg({
     path:''
     compressionQuality:1
 },function(ret,err){
